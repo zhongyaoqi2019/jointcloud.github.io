@@ -1,0 +1,269 @@
+.jcc-header{
+	display: block;
+	width: 100%;
+	height: 55px;
+	float: left;
+	background: #299adb;
+	position: fixed;
+	left: 0px;
+	top: 0px;
+}
+
+.jcc-header-nav{
+	display: block;
+	width: 1120px;
+	height: 55px;
+	margin: 0 auto;
+}
+
+.jcc-header-nav-logo{
+	display: block;
+	min-width: 0px;
+	height: 55px;
+	line-height: 55px;
+	padding-left: 15px;
+	padding-right: 15px;
+	float: left;
+	font-size: 18px;
+	color: #FFFFFF;
+}
+
+.jcc-header-nav-item{
+	display: block;
+	height: 55px;
+	min-width: 0px;
+	float: left;
+}
+
+.jcc-header-nav-item li{
+	display: block;
+	height: 55px;
+	min-width: 0px;
+	float: left;
+}
+
+.jcc-header-nav-item li a{
+	display: block;
+	min-width: 0px;
+	height: 55px;
+	line-height: 55px;
+	padding-left: 18px;
+	padding-right: 18px;
+	font-size: 14px;
+	color: #FFFFFF;
+	float: left;
+}
+
+.jcc-header-nav-item li a:hover{
+	background: #187cb6;
+}
+
+.jcc-header-nav-item li a.jcc-active{
+	background: #187cb6;
+}
+
+.jcc-body{
+	width: 100%;
+	min-height: 480px;
+	background: url(../img/ico/grid.png);
+	float: left;
+	padding-bottom: 80px;
+}
+
+.jcc-body-banner{
+	display: block;
+	width: 1120px;
+	height: 480px;
+	margin: 0 auto;
+	margin-top: 75px;
+	background: #EEEEEE;
+}
+
+.jcc-body-logo{
+	display: block;
+	width: 1000px;
+	height: 360px;
+	padding: 60px;
+	float: left;
+	background: url(../img/ico/bg.png) no-repeat center;
+}
+
+#jcc-body-banner-title{
+	display: block;
+	width: 100%;
+	height: 60px;
+	line-height: 60px;
+	text-align: center;
+	font-size: 60px;
+	font-weight: bold;
+	color: #333333;
+}
+
+#jcc-body-banner-describe{
+	display: block;
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	font-size: 30px;
+	font-weight: bold;
+	color: #666666;
+}
+
+#jcc-body-banner-time{
+	display: block;
+	width: 100%;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	font-size: 18px;
+	font-weight: normal;
+	color: #666666;
+	margin-top: 30px;
+}
+
+#jcc-body-info{
+	display: block;
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	font-size: 21px;
+	font-weight: normal;
+	color: #666666;
+	margin-bottom: 30px;
+}
+
+#jcc-body-info a{
+	font-size: 21px;
+	font-weight: normal;
+	color: #666666;
+	color: #299ADB;
+}
+
+
+#jcc-body-banner-button{
+	display: block;
+	width: 100%;
+	height: 55px;
+}
+
+
+#jcc-body-banner-button span{
+	display: block;
+	min-width: 0px;
+	float: left;
+	
+	
+}
+
+.jcc-body-banner-button-left{
+	display: block;
+	width: 175px;
+	height: 55px;
+	line-height: 55px;
+	font-size: 16px;
+	color: #FFFFFF;
+	background: #299ADB;
+	border-radius: 8px;
+	float: left;
+	text-indent: 5px;
+	margin-right: 100px;
+	margin-left: 255px;
+	border: 1px solid #187CB6;
+}
+
+.jcc-body-banner-button-left img{
+	display: block;
+	width: 25px;
+	width: 25px;
+	float: left;
+	margin-top: 15px;
+	margin-left: 12px;
+}
+
+.jcc-body-banner-button-right{
+	display: block;
+	width: 215px;
+	height: 55px;
+	line-height: 55px;
+	font-size: 16px;
+	color: #666666;
+	background: #FFFFFF;
+	border-radius: 8px;
+	float: left;
+	border: 1px solid #DDDDDD;
+}
+
+.jcc-body-banner-button-right img{
+	display: block;
+	width: 29px;
+	width: 29px;
+	float: left;
+	margin-top: 13px;
+	margin-left: 22px;
+}
+
+#jcc-body-banner-link{
+	display: block;
+	width: 100%;
+	height: 30px;
+	margin-top: 30px;
+}
+
+#jcc-body-banner-link code{
+	display: block;
+	width: 240px;
+	height: 30px;
+	line-height: 30px;
+	float: left;
+	margin-top: 10px;
+	margin-left: 375px;
+	font-size: 16px;
+	text-align: center;
+	color: #666666;
+}
+
+#jcc-body-banner-link img{
+	display: block;
+	height: 30px;
+	float: left;
+	margin-top: 10px;
+}
+
+
+
+
+.jcc-footer{
+	display: block;
+	width: 100%;
+	height: 100px;
+	float: left;
+	background: #FFFFFF;
+	margin-top: 10px;
+}
+
+.jcc-footer-info{
+	display: block;
+	width: 94%;
+	height: 75px;
+	padding-top: 25px;
+	margin: 0 auto;
+	border-top:1px solid #DDDDDD;
+	text-align: center;
+}
+
+.jcc-footer-info a{
+	color: #299ADB;
+	font-size: 12px;
+}
+
+.jcc-footer-info p{
+	display: block;
+	float: left;
+	height: 30px;
+	width: 100%;
+	font-size: 12px;
+	margin-top: 5px;
+	color: #666666;
+}
