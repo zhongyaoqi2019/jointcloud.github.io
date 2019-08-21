@@ -1,0 +1,246 @@
+.jcc-body-panel{
+	display: block;
+	min-height: 40px;
+	width: 1120px;
+	margin: 0 auto;
+	margin-top: 55px;
+	
+}
+
+.jcc-body-nav{
+	display: block;
+	min-height: 40px;
+	width: 258px;
+	float: left;
+	margin-right: 20px;
+	margin-top: 20px;
+}
+
+.jcc-body-nav ul{
+	position: fixed;
+	display: block;
+	min-height: 20px;
+	width: 238px;
+	padding: 10px;
+	float: left;
+	border: 1px solid #DDDDDD;
+	border-radius: 5px;
+	background: #EFEFEF;
+	overflow: hidden;
+}
+
+
+.jcc-body-nav li{
+	display: block;
+	min-height: 0px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	width: 100%;
+	float: left;
+}
+
+
+.jcc-body-nav li span{
+	display: block;
+	height: 5px;
+	width: 5px;
+	background: #666666;
+	float: left;
+	margin-top: 7px;
+	
+}
+
+.jcc-body-nav li span.jcc-active{
+	background: #187CB6;
+}
+
+.jcc-body-nav li a{
+	display: block;
+	min-height: 20px;
+	width: 90%;
+	float: left;
+	line-height: 20px;
+	margin-left: 5%;
+	color: #666666;
+}
+
+.jcc-body-nav li a:hover{
+	color: #187CB6;
+}
+
+.jcc-body-nav li a.jcc-active{
+	color: #187CB6;
+}
+
+
+
+
+
+
+
+
+
+.jcc-body-content{
+	display: block;
+	min-height: 220px;
+	width: 820px;
+	padding: 10px;
+	float: left;
+}
+
+.jcc-body-content h1{
+	display: block;
+	height: 80px;
+	width: 100%;
+	line-height: 80px;
+	font-size: 36px;
+	color: #000000;
+	font-weight: bold;
+	float: left;
+}
+
+.jcc-body-content h2{
+	display: block;
+	height: 35px;
+	width: 100%;
+	background: #EEEEEE;
+	line-height: 35px;
+	font-size: 18px;
+	color: #333333;
+	margin-bottom: 10px;
+	float: left;
+}
+
+.jcc-body-content p{
+	width: 100%;
+	line-height: 24px;
+	font-size: 14px;
+	color: #666666;
+	margin-bottom: 10px;
+}
+
+.jcc-body-content p strong{
+	font-weight: bold;
+	color: #000000;
+}
+
+.jcc-body-content ul{
+	display: block;
+	width: 100%;
+	float: left;
+	min-height: 0px;
+	margin-bottom: 5px;
+}
+
+.jcc-body-content ul li{
+	display: block;
+	width: 100%;
+	float: left;
+	height: 30px;
+}
+
+.jcc-body-content ul li p{
+	line-height: 30px;
+	color: #666666;
+	font-size: 14px;
+}
+
+.jcc-body-content ul li p a{
+	color: #299ADB;
+	font-size: 14px;
+}
+
+.jcc-body-content ul li span{
+	display: block;
+	height: 5px;
+	width: 5px;
+	background: #666666;
+	float: left;
+	margin-top: 12px;
+	margin-right: 10px;
+	margin-left: 15px;
+	border-radius: 100%;
+	
+}
+
+.jcc-body-content ul li p strike{
+	color: #666666;
+	font-size: 14px;
+	text-decoration: line-through;
+}
+
+.jcc-body-content ul li p em{
+	color: #CF2D28;
+	font-size: 14px;
+}
+
+.jcc-body-content p a{
+	color: #299ADB;
+	font-size: 14px;
+}
+
+
+table.altrowstable {
+    font-size:12px;
+    color:#666666;
+    border-width: 1px;
+    border-color: #999999;
+    border-collapse: collapse;
+}
+
+table.altrowstable th {
+    border-width: 1px;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-style: solid;
+    border-color: #999999;
+    color:#666666;
+    font-size:12px;
+    background: #DDDDDD;
+}
+
+table.altrowstable tr{
+	cursor: pointer;
+}
+
+table.altrowstable td {
+    border-width: 1px;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-style: solid;
+    border-color: #999999;
+	color:#666666;
+	font-size:12px;
+	text-align: center;
+}
+
+table.altrowstable tr:nth-child(even){
+	background: #EEEEEE;
+}
+
+table.altrowstable tr.jcc-active{
+	background: #EEEEEE;
+}
+
+.oddrowcolor{
+    background-color:#999999;
+}
+.evenrowcolor{
+    background-color:#999999;
+}
+
+table.altrowstable th strong{
+	font-size: 14px;
+	color: #333333;
+	font-weight: bold;
+}
+
+table.altrowstable td strong{
+	font-size: 12px;
+	color: #333333;
+	font-weight: bold;
+}
