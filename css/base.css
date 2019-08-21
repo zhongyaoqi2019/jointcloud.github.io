@@ -1,0 +1,29 @@
+*{
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 14px;
+	font-weight: normal;
+	color: #333333;
+	text-decoration: none;
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+}
+
+html,body{
+	background: rgba(255,255,255,1);
+	width: 100%;
+}
+
+.clearfix:after { 
+	content: "."; 
+	display: block; 
+	clear: both; 
+	visibility: hidden; 
+	line-height: 0;
+	height: 0; 
+	font-size:0;
+} 
+
+.clearfix { 
+	*zoom:1;
+}
